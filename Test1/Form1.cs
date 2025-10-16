@@ -9,7 +9,14 @@ namespace Test1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello, World!");
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string input = textBox1.Text;
+            listBox1.Items.Add(input);
+            textBox1.Clear();
         }
     }
 }
